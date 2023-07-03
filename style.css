@@ -107,12 +107,14 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(31,255,1,1) 100%
 }
 .dow{
     padding: 10px;
+    padding: 20px;
+    font-size: 30px;
     position: relative;
-    font-size: 10px;
     right: 0px;
+    color: red;
     transform: rotateZ('angle');
     transition: 500ms;
-    margin-top: -100px;
+    margin-top: 100px;
     background-color: aqua;
 }
 .dow:hover{
@@ -146,7 +148,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(31,255,1,1) 100%
 }
 a{
     text-decoration: none;
-    color: white;
+    color: red;
 }
 .btn:hover{
     transition: 500ms;
